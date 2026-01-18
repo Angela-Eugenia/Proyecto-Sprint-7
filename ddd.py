@@ -14,7 +14,7 @@ boton1 = st.checkbox('Construir gráfica', key="precio")
 if boton1:
     st.write('Histograma por precio')
     grafico1 = px.histogram(datos, x='price')
-    grafico1.update_xaxes(range=[0, 150000])
+    grafico1.update_xaxes(range=[0, 1500000])
     st.plotly_chart(grafico1, width="stretch")
 
 st.header('Estado del vehículo')
@@ -42,5 +42,5 @@ if boton3:
         color_discrete_sequence=["green"]
         
     )
-    grafico3.update_xaxes(range=[0, 0.6])
+    grafico3.update_xaxes(range=[0, 0.9])
     st.plotly_chart(grafico3, width="stretch")
