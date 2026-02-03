@@ -1,4 +1,4 @@
-Proyecto-Sprint-7
+Proyecto Pagina de Coches
 
 Se cuenta con la base sobre coches para informacion general, se describe modelo, KM, modelo entre otras caracteristicas.
 El objetivo es visualizar por medio de una pagina WEB donde se visualicen:
